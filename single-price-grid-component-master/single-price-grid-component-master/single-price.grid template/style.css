@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 100vh;
+    background-color:  hsl(204, 43%, 93%);
+    padding:10px 20px;
+}
+.content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width:550px;
+    margin: 0 auto;
+	border-radius: 8px;
+	overflow: hidden;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+}
+.item{
+    padding:30px;
+}
+.item1{
+    background-color: #fff;
+}
+.item1 h2{
+    font-size:20px;
+    color:hsl(179, 62%, 43%);
+     font-family: "Karla", sans-serif;
+    font-weight: 700;
+    padding:10px;
+}
+.item1 h3{
+color: hsl(71, 73%, 54%);
+font-size:15px;
+padding:10px;
+font-family: "Karla", sans-serif;
+font-weight:700;
+}
+.item1 p{
+    color: hsl(218, 22%, 67%);
+    font-size: 14px;
+    font-family: "Karla", sans-serif;
+    font-weight: 300px;
+    line-height: 1.5rem;   
+}
+.item2{
+    background-color: hsl(179, 62%, 43%);
+}
+.item2 h3{
+    color:white;
+    font-family: "Karla", sans-serif;
+    font-weight:400;
+    font-size: 20px;
+    padding:10px;
+}
+.item2 span {
+    color:white;
+    font-size:30px;
+    padding:10px;
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+}
+.item2 .pi{
+    color:#fff;
+    font-size:15px;
+    font-weight:300;
+    font-family: "Karla", sans-serif;
+    padding:10px;
+}
+.item2 p{
+    font-size: 12px;
+    color:#dcd9d9;
+    font-weight:500;
+    font-family:"Karla", sans-serif;
+    
+}
+.item2 .button{
+    background-color: hsl(71, 73%, 54%);
+    width:100%;
+    height:40px;
+    border: none;
+    color:#fff;
+    font-family:"Karla", sans-serif;
+    font-weight: 400;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.item3 {
+	background-color: #4abebd;
+    
+}
+.item3 h3 {
+	color: white;
+	font-weight: 600;
+	font-size:20px;
+	padding:10px;
+    font-family: "Karla", sans-serif;;
+}
+.item3 p {
+	color: hsl(210, 6%, 87%);
+	line-height: 1.5rem;
+    font-family: "Karla", sans-serif;
+    font-weight:400;
+}
+@media screen and (max-width:600px){
+    .items{
+        flex-direction: column;
+    }
+    .item1{
+        width:55%;
+    }
+    
+  }
+  
