@@ -1,0 +1,177 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+*{
+    font-family: "League Spartan", sans-serif;
+}
+body{
+    background-image: url(./images/bg-pattern-top-desktop.svg);
+    font-size: 15px;
+}
+.container{
+    width:80%;
+    margin:0 auto;
+}
+.top{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.heading h1{
+    font-size:40px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 600;
+    font-family:"League Spartan", sans-serif ;
+    margin-bottom:12px;
+}
+.heading p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "League Spartan", sans-serif ;
+    color:hsl(303, 10%, 53%);
+    line-height: 1.4;
+
+}
+.star{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:  hsl(326, 33%, 96%);
+    padding:12px 24px;
+    margin-bottom: 18px;
+    font-size:12px;
+    align-items: center;
+    border-radius: 10px;
+    width:300px;
+    margin-right:120px;
+}
+.starimg img{
+    width:12px;
+}
+.starimg{
+    margin-right:20px;
+}
+.rate2{
+    margin-left:40px;
+}
+.rate3{
+    margin-left:70px ;
+}
+.ratetext{
+    color:hsl(300, 43%, 22%);
+    padding:12px;
+}
+.bottom{
+    margin-top:50px;
+    background-image: url(./images/bg-pattern-bottom-desktop.svg);
+    
+}
+.cards{
+    display: flex;
+    justify-content:center;
+    gap:25px;
+    margin-right:10%;
+}
+
+.card{
+    background-color:hsl(300, 43%, 22%);
+    width:300px;
+    height:170px;
+    margin-right:5px;
+    padding:20px 15px;
+    border-radius:8px;
+}
+.profile{
+    display:flex;
+    margin-left:10px;
+    margin-top:10px;
+}
+.profile img{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;   
+}
+.desc{
+    margin-left:10px;
+    font-size:15px;
+    line-height:1.2;
+    font-family:"League Spartan", sans-serif;
+    font-weight:400;
+}
+.profile-detail{
+    font-size: 15px;
+    font-weight:600;
+    font-family: "League Spartan", sans-serif;
+    padding:10px;
+}
+.profile-detail h3{
+    color:hsl(0, 0%, 100%);
+
+}
+.profile-detail h5{
+    color: hsl(333, 47%, 43%);
+    padding:5px;
+}
+.desc{
+   color:hsl(0, 0%, 100%);
+    margin-top:20px;
+}
+.rating-2{
+    margin-top: 20px;
+}
+.rating-3{
+    margin-top:40px;
+}
+@media screen and (max-width:375px){
+    .top{
+        justify-content: center;
+        background-image: url(./images/bg-pattern-top-mobile.svg);
+    }
+    .top h1{
+        text-align:center;
+        font-size: 2rem;
+        margin-top: 1rem;
+       
+    }
+    .top p{
+        font-size:1.3rem;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .starimg{
+        margin-right: 0px;
+    }
+    .rate2{
+        margin-left: 0px;
+    }
+    .rate3{
+        margin-left: 0px;
+    }
+     .star{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left:20%;
+     }
+     .rating{
+        flex-wrap: wrap;
+        justify-content: center;
+     }
+     .bottom{
+        margin-top: 0;
+        margin-bottom: 1rem;
+        background-image: url(./images/bg-pattern-bottom-mobile.svg);
+     }
+     .cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+     .card{
+       width:100%;
+       margin-top: 1rem;
+       margin-left:8rem;
+     }
+}
