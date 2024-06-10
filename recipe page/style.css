@@ -1,0 +1,160 @@
+
+* {
+    font-family: "Young Serif", serif;
+}
+
+body {
+    background-color: rgb(252, 221, 180);
+    max-width: 400px;
+    min-width: 400px;
+    margin: 0 auto;
+}
+
+.content {
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    border-radius: .55rem;
+    padding: 1em;
+}
+
+h1,
+h3 {
+    font-family: "Young Serif", serif;
+    font-style: normal;
+}
+
+p {
+    font-size: 16px;
+}
+
+hr {
+    width: 400px;
+    color: rgb(250, 244, 244);
+}
+
+.image {
+    border-radius: .75rem;
+}
+
+.title {
+    text-align: start;
+}
+
+.para {
+    font-size: .55rem;
+    color: grey;
+}
+
+.preparation {
+    padding: 0.6em;
+    margin: 0 auto;
+    background-color: rgb(248, 239, 240);
+    border-radius: .75rem;
+}
+
+.preparation ul li {
+    font-size: .55rem;
+    font-family: 'young-serif';
+    color: grey;
+    padding: 3px;
+}
+
+.preparation li::marker {
+    color: purple;
+}
+
+.preparation h3 {
+    color: purple;
+    font-size: .80rem;
+}
+
+.preparation strong {
+    color: rgb(83, 79, 79);
+}
+
+.ingeredient h3 {
+    color: brown;
+    font-size: .80rem;
+}
+
+.ingeredient ul li {
+    font-size: .55rem;
+    color: grey;
+    font-family: 'young-serif';
+    padding: 3px;
+}
+
+.ingeredient li::marker {
+    color: rgb(218, 22, 22);
+}
+
+.instruct ol li {
+    font-size: .55rem;
+    font-family: 'young-serif';
+    color: grey;
+    padding: 3px;
+}
+
+.instruct li::marker {
+    color: brown;
+}
+
+.instruct h3 {
+    color: brown;
+    font-size: .80rem;
+}
+
+.instruct strong {
+    color: rgb(83, 79, 79);
+}
+
+.insteuct li::marker {
+    color: brown;
+}
+
+.table-box table {
+    width: 80%;
+}
+
+
+.table-box h3 {
+    color: brown;
+    font-size: .80rem;
+}
+
+.table-box p {
+    font-size: .55rem;
+    color: grey;
+    padding-left: 3px;
+
+}
+
+.table-box tr td {
+    font-size: .55rem;
+    font-style: 'young-serif';
+    color: grey;
+
+}
+
+.table-box strong {
+    color: brown;
+}
+
+table tr,
+table tr td {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.164);
+    padding-left: 5px;
+}
+@media screen and (max-width:480px) {
+    .title {
+        font-size: 32px;
+        width: 70%;
+    }
+    .preparation {
+        padding: 0.6em;
+        margin: 0 auto;
+        background-color: rgb(248, 239, 240);
+        border-radius: .75rem;
+    }
+}
