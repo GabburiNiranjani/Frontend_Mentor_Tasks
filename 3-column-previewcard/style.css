@@ -1,0 +1,135 @@
+.container {
+    max-width: 770px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    margin: 2rem;
+    overflow: hidden;
+  }
+  
+  .row1 {
+    background-color: hsl(31, 77%, 52%);
+  }
+  
+  .row2 {
+    background-color: hsl(184, 100%, 22%);
+  }
+  
+  .row3 {
+    background-color: hsl(179, 100%, 13%);
+  }
+  
+  .price-row {
+    padding: 40px;
+  }
+  
+  .price-row h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+    font-size: 30px;
+    font-weight: 700;
+    padding: 15px;
+  }
+  
+  .price-row p {
+    color: hsla(0, 15%, 94%, 0.75);
+    line-height: 1.6;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 10px;
+  }
+  
+  .price-row .btn {
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    padding: 13px 27px;
+    border-radius: 26px;
+    margin-top: 60px;
+    border: 2px solid hsl(0, 0%, 95%);
+    transition: all .4s ease-in-out;
+    font-size: 13px;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  
+  .row1 .btn1 {
+    color: hsl(31, 77%, 52%);
+  }
+  
+  .row2 .btn2 {
+    color: hsl(184, 100%, 22%);
+  }
+  
+  .row3 .btn3 {
+    color: hsl(179, 100%, 13%);
+  }
+  
+  .price-row .btn:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: transparent;
+  }
+  
+
+  @media (max-width: 768px) {
+    .wrapper {
+      grid-template-columns: 1fr;
+      margin: 1rem;
+    }
+  
+    .price-row {
+      padding: 20px;
+    }
+  
+    .price-row h2 {
+      font-size: 24px;
+      padding: 10px;
+    }
+  
+    .price-row p {
+      font-size: 12px;
+      padding: 5px;
+    }
+  
+    .price-row .btn {
+      padding: 10px 20px;
+      font-size: 12px;
+      margin-top: 30px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .price-row {
+      padding: 15px;
+    }
+  
+    .price-row h2 {
+      font-size: 20px;
+      padding: 8px;
+    }
+  
+    .price-row p {
+      font-size: 10px;
+      padding: 5px;
+    }
+  
+    .price-row .btn {
+      padding: 8px 16px;
+      font-size: 11px;
+      margin-top: 20px;
+    }
+  }
+  
