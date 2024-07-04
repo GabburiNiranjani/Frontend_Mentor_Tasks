@@ -1,0 +1,363 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+*{
+    font-family: "Poppins", sans-serif;
+    font-family: "Open Sans", sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:40px 60px;
+}
+.nav img{
+    width:200px;
+}
+.nav button{
+    color: hsl(321, 100%, 78%);
+    border: 1px solid hsl(322, 100%, 66%);
+    border-radius: 2rem;
+    background: transparent;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+    width:100px;
+    height: 30px;
+}
+.nav button:hover{
+    border: 1px solid hsl(321, 100%, 78%);
+}
+.header{
+    text-align: center;
+    margin-top:10%;
+}
+.intro h1{
+   font-size:35px;
+   font-weight: 600;
+   font-family:"Poppins", sans-serif;
+   padding:7px; 
+}
+.intro p{
+    font-size: 18px;
+    font-family:  "Open Sans", sans-serif;
+    font-weight:600;
+    color:rgb(67, 65, 65);
+    padding:7px;
+}
+.GSFF-btn {
+    color: white;
+    background: hsl(322, 100%, 66%);
+    padding:20px 30px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    border-radius:50px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    width:300px;
+    margin-top:30px;
+    font-family: "Open Sans", sans-serif;
+    font-size:15px;
+  }
+.intro img{
+  margin-top:50px;
+  width:80%;
+  height:70%;
+}
+  .count {
+    margin: 0 5rem;
+    display: flex;
+    justify-content:space-around;
+    margin-top:80px;
+  }
+  .firsts img{
+    float:left;
+  }
+  .firsts h1 {
+    font-size: 60px;
+    margin-bottom:5px;
+    font-family: "Open Sans", sans-serif;
+  }
+  .firsts p {
+    font-family:"Open Sans", sans-serif; 
+    color:rgb(58, 58, 58);
+    font-weight:500;
+  }
+  .column{
+    margin:40px auto;
+    width:90%
+  }
+  .pattern-top,.pattern-bottom{
+    display: block;
+    width:100%;
+  }
+  .col{
+    display: flex;
+    align-items: center;
+    padding:10px;
+    gap:7rem;
+  }
+  .col .des{
+    margin-left:70px;
+  }
+  .des h2{
+    font-family: "poppins",sans-serif;
+    font-size: 35px;
+    font-weight:600;
+
+  }
+  .des p{
+    font-family: "Open Sans", sans-serif; 
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(58, 58, 58);
+    padding:8px;
+  }
+.first,.three{
+  background-color: hsl(207, 100%, 98%);
+}
+.first img,.three img{
+  width:40%;
+  height:40%;
+  margin-left:10%;
+}
+ 
+ .col1 img{
+  width:40%;
+  margin-left: 10%;
+}
+.col1{
+  display: flex;
+  align-items: center;
+  padding:10px;
+  gap:7rem;
+}
+.community{
+  text-align: center;
+  margin-top:10%;
+}
+.community h1{
+  font-family: "poppins",sans-serif;
+  font-family: 32px;
+}
+.community .btn{
+  color: white;
+  background: hsl(322, 100%, 66%);
+  padding:20px 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius:50px;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  width:300px;
+  margin-top:30px;
+  font-family: "Open Sans", sans-serif;
+  font-size:15px;
+}
+.footer{
+  margin-top: 10%;
+}
+.two{
+  display: flex;
+  gap:1rem;
+}
+.two h2{
+  font-size: 35px;
+  font-family: "poppins",sans-serif;
+}
+
+.about{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  color: #fff;
+  background-color: hsl(192,100%,9%);
+  height:500px;
+}
+.row{
+  margin-left:10%;
+}
+.sign-in{
+  margin-right: 10%;
+}
+.one{
+  font-size: 13px;
+  font-family: "Open Sans",sans-serif;
+  line-height: 1.6;
+  font-weight: 500;
+  color:#dad2d2;
+}
+.phone,
+.email {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem auto;
+  font-weight: 600;
+  font-family: "Open Sans",sans-serif;
+  color:#dad2d2;
+  font-size: 14px;
+}
+.media-icons{
+  display:flex;
+  gap:2rem;
+  margin-top:70px;
+}
+.media-icons i{
+  color:#fff;
+  font-size:30px;
+}
+.sign-in h3 {
+  font-size:30px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+.sign-in P{
+  font-size: 13px;
+  padding:7px;
+  font-weight: 500;
+  line-height: 1.6;
+  font-family: "Open Sans",sans-serif;
+}
+.infield{
+  margin-top: 40px;
+}
+ .infield input{
+  width:300px;
+  height:50px;
+  border: none;
+  border-radius:5px;
+ }
+ .infield .btn{
+  background-color: hsl(322, 100%, 66%);
+  width:130px;
+  height:40px;
+  border: none;
+  border-radius: 3px;
+  color: #e8e4e4;
+  font-family: "Open Sans",sans-serif;
+  margin-left:30px;
+  font-family: "poppins",sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+ }
+  
+  @media (max-width: 769px) {
+    body {
+      font-size: 1rem;
+    }
+    nav {
+      padding: 3rem;
+    }
+    #nav-logo {
+      max-width: 10rem;
+    }
+    nav button {
+      padding: 0.4rem 1.2rem;
+    }
+    .intro h1 {
+      font-size: 2rem;
+    }
+    .intro p {
+      margin: 0 auto 2rem auto;
+    }
+    .GSFF-btn {
+      padding: 1rem 3rem;
+    }
+    .intro img {
+      padding: 0 3rem;
+    }
+    .count {
+      flex-direction: column;
+      gap: 5rem;
+    }
+    .count .des {
+      max-width: 250px;
+      margin: 0 auto;
+    }
+    .col {
+      grid-template-columns: 1fr;
+      text-align: center;
+      padding: 5rem 2rem;
+    }
+    .first img,
+    .third img {
+      order: 1;
+    }
+    
+    .col h2 {
+      font-size: 1.7rem;
+    }
+    .community h2 {
+      font-size: 1.1rem;
+    }
+    .footer {
+      flex-direction: column-reverse;
+      gap: 5rem;
+      padding: 5rem 3rem;
+    }
+    .about,
+    .sign-in div {
+      margin: 0;
+    }
+    #footer-logo {
+      max-width: 15rem;
+      margin-bottom: 2rem;
+    }
+    .phone,
+    .email {
+      margin: 1.5rem auto;
+    }
+    .media-icons a i {
+      font-size: 2rem;
+    }
+    .sign-in form {
+      display: grid;
+      grid-template-columns: auto;
+      justify-items: end;
+      gap: 1rem;
+      margin-top: 2rem;
+      margin-left: 0;
+    }
+    .sign-in form .infield {
+      width: 100%;
+    }
+    .infield input {
+      width: 100%;
+    }
+    .sign-in .sign-in form button {
+      width: max-content;
+    }
+  }
+  @media (max-width: 426px) {
+    nav {
+      padding: 3rem 2rem;
+    }
+    #nav-logo {
+      max-width: 7rem;
+    }
+    .intro p {
+      margin: 0 2rem 2rem 2rem;
+    }
+    .count {
+      margin: 0 2rem;
+    }
+    .pattern-top-desktop,
+    .pattern-bottom-desktop {
+      display: none;
+    }
+    .pattern-top-mobile,
+    .pattern-bottom-mobile {
+      display: block;
+      width: 100%;
+    }
+    #footer-logo {
+      max-width: 12rem;
+    }
+  }
+
