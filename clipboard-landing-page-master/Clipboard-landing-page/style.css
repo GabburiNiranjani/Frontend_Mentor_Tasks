@@ -1,0 +1,218 @@
+*{
+    margin:0;
+    padding:0;
+}
+*{
+    font-family: "Bai Jamjuree", sans-serif;
+}
+.header{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(./images/bg-header-desktop.png);
+    background-size: cover;
+    padding:20px 50px;
+
+}
+.intro{
+    text-align: center;
+    padding:0 10px;
+    width:40%;
+}
+.intro h2{
+    padding:5px 0;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight:600;
+    color:hsl(210, 10%, 33%);
+    font-size:25px;
+}
+.guide{
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight:300;
+    color:hsl(201, 11%, 66%);
+    font-size: 13px;
+}
+.btn {
+    padding:20px 0;
+
+}
+
+.btn button {
+    padding: 10px 25px;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    margin: 0 10px;
+    border-radius:25px;
+    cursor: pointer;
+}
+.btn .btn1{
+    background-color:  hsl(171, 66%, 44%);
+    box-shadow: 2px 2px 8px  hsl(171, 66%, 44%), 2px 2px 2px  hsl(171, 66%, 44%);
+}
+.btn .btn2{
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 2px 2px 8px  hsl(233, 100%, 69%), 2px 2px 2px  hsl(233, 100%, 69%);
+}
+.one{
+    text-align: center;
+    width:45%;
+    margin:auto;
+}
+.one h2 {
+    padding: 15px 0;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight:600;
+    color:hsl(210, 10%, 33%);
+    font-size:25px;
+    
+}
+.one p{
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight:300;
+    color:hsl(201, 11%, 66%);
+    font-size: 13px;
+    padding:2px;
+}
+.two{
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    margin: 50px 0;
+}
+.two img {
+    height:80%;
+    width:50%;
+}
+
+.two .features div {
+    width:50%;
+    padding:40px;
+}
+.two .features div h3{
+    padding:5px;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight:600;
+    color:hsl(210, 10%, 33%);
+    font-size:20px;  
+}
+.two .features div p{
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight:500;
+    color:hsl(201, 11%, 66%);
+    font-size:15px;
+    padding:5px;
+}
+.three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.three img {
+    height: 80%;
+    width: 70%;
+    margin:auto;
+}
+.three div h2 ,h3{
+    padding:5px;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight:600;
+    color:hsl(210, 10%, 33%);
+    font-size:20px;  
+}
+.three div p{
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight:500;
+    color:hsl(201, 11%, 66%);
+    font-size:15px;
+    padding:5px;
+}
+.four .functions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px ;
+}
+.four .functions .card {
+    width: 26%;
+    margin: 0 30px;
+    text-align:center;
+}
+ .functions .card h3{
+    padding:5px;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight:600;
+    color:hsl(210, 10%, 33%);
+    font-size:20px;
+}
+.four .functions.card  img {
+    margin: 10px 0 20px 0;
+}
+.functions .card p{
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight:500;
+    color:hsl(201, 11%, 66%);
+    font-size:15px;
+    padding:7px;
+}
+.four .compaines{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    margin:100px 30px;
+}
+.five{
+    text-align: center;
+}
+.five h2{
+    padding:5px 0;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight:600;
+    color:hsl(210, 10%, 33%);
+    font-size:25px;
+}
+.five p{
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight:300;
+    color:hsl(201, 11%, 66%);
+     font-size: 15px;
+     padding: 10px;
+}
+.footer{
+    padding: 0 40px;
+    background-color: #f5f6f8;
+    padding: 10px 0;
+}
+
+.footer .foo{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foo img{
+    width: 50px;
+    height: 50px;
+    margin: 0 70px;
+}
+
+.foo ul {
+    list-style: none;
+    max-width: 400px;
+}
+
+ul li {
+    display: inline-block;
+    margin: 5px 20px;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight:500;
+    color:hsl(201, 11%, 66%);
+     font-size: 15px;
+    
+}
+
